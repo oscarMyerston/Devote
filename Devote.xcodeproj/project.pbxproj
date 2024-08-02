@@ -19,6 +19,8 @@
 		48252F292C581B45007BB207 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48252F282C581B45007BB207 /* BackgroundImageView.swift */; };
 		48252F2B2C596385007BB207 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48252F2A2C596384007BB207 /* NewTaskItemView.swift */; };
 		48252F2D2C5973DA007BB207 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48252F2C2C5973DA007BB207 /* BlankView.swift */; };
+		4866B5762C5C049900284E8E /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866B5752C5C049900284E8E /* ListRowItemView.swift */; };
+		4866B5782C5C875000284E8E /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866B5772C5C874F00284E8E /* CheckboxStyle.swift */; };
 		486A72802C52D87300064894 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A727F2C52D87300064894 /* Constant.swift */; };
 		48B7FC412C54AEDF00A3155B /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7FC402C54AEDF00A3155B /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		48252F282C581B45007BB207 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		48252F2A2C596384007BB207 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 		48252F2C2C5973DA007BB207 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		4866B5752C5C049900284E8E /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		4866B5772C5C874F00284E8E /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 		486A727F2C52D87300064894 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		48B7FC402C54AEDF00A3155B /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +115,7 @@
 				48252F282C581B45007BB207 /* BackgroundImageView.swift */,
 				48252F2A2C596384007BB207 /* NewTaskItemView.swift */,
 				48252F2C2C5973DA007BB207 /* BlankView.swift */,
+				4866B5752C5C049900284E8E /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 		48159F142C51FAAB005BB9F5 /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				4866B5772C5C874F00284E8E /* CheckboxStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -226,8 +232,10 @@
 				48B7FC412C54AEDF00A3155B /* HideKeyboardExtension.swift in Sources */,
 				48252F2D2C5973DA007BB207 /* BlankView.swift in Sources */,
 				486A72802C52D87300064894 /* Constant.swift in Sources */,
+				4866B5762C5C049900284E8E /* ListRowItemView.swift in Sources */,
 				48159F042C51F90A005BB9F5 /* Devote.xcdatamodeld in Sources */,
 				48159EF82C51F906005BB9F5 /* DevoteApp.swift in Sources */,
+				4866B5782C5C875000284E8E /* CheckboxStyle.swift in Sources */,
 				48252F2B2C596385007BB207 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
